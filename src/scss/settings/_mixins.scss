@@ -1,0 +1,8 @@
+@import "./../../../node_modules/bootstrap/scss/mixins";
+
+@mixin container-main() {
+    @include make-container();
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 15px;
+}
