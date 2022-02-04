@@ -5,12 +5,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroSliderSection from "../components/HeroSlider/HeroSliderSection"
 import OfficeSection from "../components/Office/OfficeSection"
+import IconsSection from "../components/Icons/IconsSection"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <HeroSliderSection></HeroSliderSection>
     <OfficeSection></OfficeSection>
+    <IconsSection></IconsSection>
     <div className="container">
       
     </div>

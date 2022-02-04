@@ -1,0 +1,55 @@
+.icons {
+    margin-top: 140px;
+
+    &__title {
+        width: 290px;
+        color: $black;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    &__line {
+        width: 130px;
+        height: 10px;
+        background: $black;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        display: flex;
+        cursor: pointer;
+        margin-top: 100px;
+    }
+
+    &__cta {
+        color: $white;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+        padding: 26px;
+        background-size: 200% 100%;
+        background-image: linear-gradient(to right, $black 50%, $main-orange 50%);
+        -webkit-transition: background-position 0.3s;
+        -moz-transition: background-position 0.3s;
+        transition: background-position 0.3s;
+
+        &:hover {
+            color: $black;
+            background-position: -100% 0;
+        }
+    }
+
+    &__arrow {
+        background: $black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        path {
+            stroke: $white;
+        }
+    }
+}
