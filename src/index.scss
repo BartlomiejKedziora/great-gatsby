@@ -7,8 +7,12 @@
 @import "./scss/settings/mixins.scss";
 @import "./scss/settings/base.scss";
 
-@import "./scss/elements/heroSliderSection";
-@import "./scss/elements/heroSlider";
-@import "./scss/elements/heroSliderItem";
-@import "./scss/elements/heroForm";
-@import "./scss/elements/heroText";
+@import "./scss/elements/HeroSlider/heroSliderSection";
+@import "./scss/elements/HeroSlider/heroSlider";
+@import "./scss/elements/HeroSlider/heroSliderItem";
+@import "./scss/elements/HeroSlider/heroForm";
+@import "./scss/elements/HeroSlider/heroText";
+
+@import "./scss/elements/Header/header";
+@import "./scss/elements/Header/navMenu";
+@import "./scss/elements/Header/social";

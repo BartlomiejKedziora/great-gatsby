@@ -4,9 +4,9 @@ import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SliderItem from "./SliderItem";
 
-import banner1 from './../images/home/shutterstock_615439679.png';
-import banner2 from './../images/home/shutterstock_1090078049.png';
-import banner3 from './../images/home/shutterstock_1790190785.png';
+import banner1 from './../../images/home/shutterstock_615439679.png';
+import banner3 from './../../images/home/shutterstock_1790190785.png';
+import banner2 from './../../images/home/shutterstock_1090078049.png';
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
