@@ -1,0 +1,92 @@
+.hero-form {
+    width: 449px;
+    height: 638px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 33px 33px;
+    
+    &__wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 125px;
+        z-index: 4;
+
+        .container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__title {
+        color: $black;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    &__subtitle {
+        color: #727272;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    &__cta {
+        color: $black;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 34px;
+    }
+
+    &__item {
+        border: 1px solid $black;
+        padding: 14px 20px;
+        margin-bottom: 20px;
+
+        &::placeholder {
+            color: #727272;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    &__checkbox {
+
+        &-wrapper {
+            display: flex;
+            margin-bottom: 21px;
+        }
+
+        &-label {
+            color: #161615;
+            font-size: 10px;
+            line-height: 16px;
+            transform: translate(0, -2px);
+            margin-left: 15px;
+        }
+    }
+
+    &__btn {
+        color: $white;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 14px;
+        background: $black;
+        border: 0;
+        cursor: pointer;
+        background-size: 200% 100%;
+        background-image: linear-gradient(to right, $black 50%, $main-orange 50%);
+        -webkit-transition: background-position 0.3s;
+        -moz-transition: background-position 0.3s;
+        transition: background-position 0.3s;
+    }
+
+    &__btn:hover {
+        color: $black;
+        background-position: -100% 0;
+    }
+}

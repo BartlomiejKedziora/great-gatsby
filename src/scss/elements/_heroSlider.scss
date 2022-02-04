@@ -1,0 +1,64 @@
+.slider {
+    height: 940px;
+    position: relative;
+
+    &-nav {
+        position: absolute;
+        height: 118px;
+        bottom: 0;
+        z-index: 2;
+        background: $white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+
+        &:hover {
+            border: 1px solid rgba(0, 0, 0, 1);
+
+            svg {
+                path {
+                    stroke: $white; 
+                }
+            }
+        }
+
+        &__prev {
+            width: 160px;
+            left: 0;
+            background-size: 200% 100%;
+            background-image: linear-gradient(to left, $white 50%, $black 50%);
+            background-position: -100% 0;
+            -webkit-transition: background-position 0.3s;
+            -moz-transition: background-position 0.3s;
+            transition: background-position 0.3s;
+
+            svg {
+                transform: translateX(-11px);
+            }
+        }
+
+        &__prev:hover {
+            background-position: 0;
+        }
+
+        &__next {
+            width: 145px;
+            left: 159px;
+            background-size: 200% 100%;
+            background-image: linear-gradient(to right, $white 50%, $black 50%);
+            -webkit-transition: background-position 0.3s;
+            -moz-transition: background-position 0.3s;
+            transition: background-position 0.3s;
+
+            svg {
+                transform: translateX(11px);
+            }
+        }
+
+        &__next:hover {
+            background-position: -100% 0;
+        }
+    }
+}

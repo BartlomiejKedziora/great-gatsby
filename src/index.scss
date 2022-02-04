@@ -1,7 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+// @import "./scss/settings/variables.scss";
+
 @import "./scss/settings/colors.scss";
 @import "./scss/settings/mixins.scss";
 @import "./scss/settings/base.scss";
-@import "./scss/settings/variables.scss";
 
+@import "./scss/elements/heroSliderSection";
+@import "./scss/elements/heroSlider";
+@import "./scss/elements/heroSliderItem";
+@import "./scss/elements/heroForm";
+@import "./scss/elements/heroText";

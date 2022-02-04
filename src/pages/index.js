@@ -4,13 +4,17 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import HeroSlider from "../components/HeroSlider"
+import HeroSliderSection from "../components/HeroSliderSection"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <HeroSlider></HeroSlider>
-
+    <HeroSliderSection></HeroSliderSection>
+    <div className="container">
+      sadfsadffffffffffffffffffffffffffffffffffffffffffffff
+      fdfffffffffffffffffffffff
+      dffffffffffffffffffffffffffff
+    </div>
     <div style={{
           marginTop: `300px`,
         }}></div>

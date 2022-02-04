@@ -1,6 +1,6 @@
 @import "./mixins";
 
-body {
+body #___gatsby {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,4 +16,8 @@ body {
     @include container-main();
 }
 
-
+.container {
+    @include media-breakpoint-up(xxl) {
+    max-width: 1600px !important;
+    }
+}
