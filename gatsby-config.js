@@ -3,8 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Project by Bartek Kedziora`,
     description: `My project in Gatsby JS`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `bartlomiejkedziora`,
+    siteUrl: `https://bartlomiejkedziora.github.io/great-gatsby/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
