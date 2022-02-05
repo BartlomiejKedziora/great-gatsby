@@ -1,0 +1,17 @@
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+    &__text {
+        color: $white;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+
+        svg {
+            transform: translateY(-4px);
+            margin-left: 3px;
+        }
+    }
+}

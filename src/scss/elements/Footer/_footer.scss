@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 169px;
+    background: $black;
+    position: relative;
+
+    &__logo {
+        color: $white;
+        font-size: 65px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 81px 0 56px;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            transform: translateY(-50%);
+        }
+
+        &__wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+    }
+}

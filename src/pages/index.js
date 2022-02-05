@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -19,15 +18,6 @@ const IndexPage = () => (
     <Banner></Banner>
     <NewsSection></NewsSection>
     <Gallery></Gallery>
-    <div className="container">
-      
-    </div>
-    <div style={{
-          marginTop: `300px`,
-        }}></div>
-    <p>
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
   </Layout>
 )
 
