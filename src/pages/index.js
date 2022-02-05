@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import HeroSliderSection from "../components/HeroSlider/HeroSliderSection"
 import OfficeSection from "../components/Office/OfficeSection"
 import IconsSection from "../components/Icons/IconsSection"
+import Banner from "../components/Banner/Banner"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <HeroSliderSection></HeroSliderSection>
     <OfficeSection></OfficeSection>
     <IconsSection></IconsSection>
+    <Banner></Banner>
     <div className="container">
       
     </div>

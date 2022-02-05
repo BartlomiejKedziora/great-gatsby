@@ -1,0 +1,52 @@
+.banner {
+    margin-top: 210px;
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__text {
+
+        &__wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        &__content {
+            width: 610px;
+            font-size: 65px;
+            font-weight: 700;
+            line-height: 75px;
+            margin-top: 210px;
+            padding-bottom: 170px;
+        }
+
+        &__line {
+            width: 610px;
+            height: 20px;
+            background: $black;
+        }
+    }
+
+    &__stripes {
+        transform: translateY(-50%);
+        
+        &__wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

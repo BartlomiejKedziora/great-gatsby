@@ -55,7 +55,7 @@ const IconsSection = () => {
                     ></IconItem>
                 </div>
                 <div className="row">
-                    <div className="col-lg-3">
+                    <div className="col-xl-3">
                         <a className="icons__btn">
                             <div className="icons__cta">dowiedz się więcej</div>
                             <div className="icons__arrow">
