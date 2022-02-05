@@ -7,6 +7,7 @@ import HeroSliderSection from "../components/HeroSlider/HeroSliderSection"
 import OfficeSection from "../components/Office/OfficeSection"
 import IconsSection from "../components/Icons/IconsSection"
 import Banner from "../components/Banner/Banner"
+import NewsSection from "../components/News/NewsSection"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <OfficeSection></OfficeSection>
     <IconsSection></IconsSection>
     <Banner></Banner>
+    <NewsSection></NewsSection>
     <div className="container">
       
     </div>
