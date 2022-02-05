@@ -1,11 +1,5 @@
 import * as React from "react";
-
-import img1 from './../../images/home/Component16.png'
-import img2 from './../../images/home/shutterstock_579651031.png'
-import img3 from './../../images/home/shutterstock_1187833249.png'
-import img4 from './../../images/home/shutterstock_763511722.png'
-import img5 from './../../images/home/shutterstock_763511701.png'
-import img6 from './../../images/home/shutterstock_610938071.png'
+import GalleryLightBox from "./GaleryLightBox";
 
 // TODO: draggable gallery for desktop
 
@@ -24,20 +18,7 @@ const Gallery = () => {
                     </div>
                 </div>    
             </div>
-            <div className="gallery__wrapper">
-                <img className="gallery__img1" src={img1} alt="" />
-                <img className="gallery__img2" src={img2} alt="" />
-                <img className="gallery__img3" src={img3} alt="" />
-                <img className="gallery__img4" src={img4} alt="" />
-                <img className="gallery__img5" src={img5} alt="" />
-                <img className="gallery__img6" src={img6} alt="" />
-                <div className="gallery__title__wrapper">
-                    <div className="container">
-                        <div className="gallery__title">Galeria</div>
-                        <div className="gallery__title__line"></div>
-                    </div>    
-                </div>
-            </div>
+            <GalleryLightBox></GalleryLightBox>
         </section>
     </>
   );
