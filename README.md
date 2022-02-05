@@ -14,6 +14,7 @@ Site is running at https://bartlomiejkedziora.github.io/great-gatsby/
 
 Layout and functionality is built with GatsbyJS supported with Bootstrap.
 Hero slider is built with SwiperJS library.
+Gallery lightbox built with Simple React Lightbox.
 
 ## Design
 
