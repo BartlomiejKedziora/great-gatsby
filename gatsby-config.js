@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/great-gatsby",
   siteMetadata: {
     title: `Gatsby Project by Bartek Kedziora`,
     description: `My project in Gatsby JS`,
