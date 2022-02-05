@@ -8,6 +8,7 @@ import OfficeSection from "../components/Office/OfficeSection"
 import IconsSection from "../components/Icons/IconsSection"
 import Banner from "../components/Banner/Banner"
 import NewsSection from "../components/News/NewsSection"
+import Gallery from "../components/Gallery/Gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <IconsSection></IconsSection>
     <Banner></Banner>
     <NewsSection></NewsSection>
+    <Gallery></Gallery>
     <div className="container">
       
     </div>
