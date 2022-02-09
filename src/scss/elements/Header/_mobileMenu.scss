@@ -3,6 +3,9 @@
     position: relative;
     width: 36px;
     height: 30px;
+    @include media-breakpoint-up(lg) { 
+      display: none;
+    }
   }
   
   /* Color/shape of burger icon bars */

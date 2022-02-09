@@ -32,7 +32,7 @@ const HeroSlider = () => {
 
     return(
         <>
-            <div className="container-fluid px-0">
+            <div className="hero-slider__container container-fluid px-0">
                 <Swiper {...params}>
                     <SwiperSlide>
                         <SliderItem slide={banner1}></SliderItem>
