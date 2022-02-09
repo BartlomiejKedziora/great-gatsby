@@ -5,7 +5,7 @@ const NavMenu = () => {
 
   return(
     <>
-      <nav className="nav-menu">
+      <nav className="nav-menu d-none d-lg-block">
         <ul>
             <li className="nav-menu__item"><Link to="/">Poznaj przestrzeń</Link></li>
             <li className="nav-menu__item"><Link to="/">Oferta</Link></li>
