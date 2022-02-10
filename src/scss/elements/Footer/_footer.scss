@@ -1,14 +1,20 @@
 .footer {
-    margin-top: 169px;
+    margin-top: 120px;
     background: $black;
     position: relative;
+    @include media-breakpoint-up(lg) { 
+        margin-top: 169px;
+    }
 
     &__logo {
         color: $white;
         font-size: 65px;
         font-weight: 700;
         text-transform: uppercase;
-        padding: 81px 0 56px;
+        padding: 70px 0 40px;
+        @include media-breakpoint-up(lg) { 
+            padding: 81px 0 56px;
+        }
     }
 
     &__image {

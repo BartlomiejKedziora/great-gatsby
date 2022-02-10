@@ -4,7 +4,7 @@ const SingleArticle = (props) => {
 
   return(
     <>
-        <div className="col-md-4 col-12 article__col">
+        <div className="col-lg-4 col-12 article__col">
             <article className="article__box">
                 <div className="article__image">
                     <img src={props.img} alt="" />

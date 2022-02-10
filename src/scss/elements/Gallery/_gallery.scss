@@ -1,19 +1,28 @@
 .gallery {
-    margin-top: 140px;
     position: relative;
+    margin-top: 80px;
+    @include media-breakpoint-up(lg) { 
+        margin-top: 140px;
+    }
 
     &__wrapper {
         position: relative;
         display: grid;
-        grid-template-columns: 625px 770px 770px 436px;
-        grid-template-rows: 322px;
-        column-gap: 30px;
-        row-gap: 20px;
+        grid-template-columns: 312px 385px 385px 218px;
+        grid-template-rows: 161px;
+        column-gap: 15px;
+        row-gap: 10px;
         grid-template-areas: 
           "left big-top small-top small-top"
           "left big-top big-bottom right"
           "left small-bottom big-bottom right"; 
           overflow-x: scroll;
+        @include media-breakpoint-up(lg) { 
+        grid-template-columns: 625px 770px 770px 436px;
+        grid-template-rows: 322px;
+        column-gap: 30px;
+        row-gap: 20px;
+        }    
     }
 
     &__image {
@@ -88,13 +97,24 @@
     }
 
     &__arrows {
-        width: 130px;
-        height: 130px;
+        width: 80px;
+        height: 80px;
         background: $white;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translateY(-50%);
+        @include media-breakpoint-up(lg) { 
+            width: 130px;
+            height: 130px;
+            transform: translateY(-50%);
+        }  
+
+        svg {
+            width: 50px;
+            @include media-breakpoint-up(lg) { 
+                width: 78px;
+            }
+        }
 
         &:hover {
 
@@ -150,6 +170,30 @@
                 display: flex;
                 justify-content: space-between;
                 padding: 0 15px;
+            }
+        }
+    }
+
+    .gallery__title__wrapper--mobile {
+
+        .gallery__title {
+            font-size: 40px;
+            line-height: 1.2;
+            @include media-breakpoint-up(lg) { 
+                font-size: 65px;
+                line-height: 75px;
+            }
+        }
+
+        .gallery__title__line {
+            width: 50%;
+            height: 8px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            @include media-breakpoint-up(lg) { 
+                width: 35%;
+                height: 20px;
+                margin-top: 20px;
             }
         }
     }

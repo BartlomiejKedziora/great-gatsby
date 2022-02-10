@@ -20,7 +20,7 @@
             font-size: 48px;
             line-height: 58px;
             text-align: left;
-            margin: 0 auto;
+            margin: 0;
         }
     }
 
@@ -47,16 +47,21 @@
 
     &__cta {
         color: $white;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 700;
-        letter-spacing: 3.6px;
+        letter-spacing: 2px;
         text-transform: uppercase;
-        padding: 26px;
+        padding: 19px;
         background-size: 200% 100%;
         background-image: linear-gradient(to right, $black 50%, $main-orange 50%);
         -webkit-transition: background-position 0.3s;
         -moz-transition: background-position 0.3s;
         transition: background-position 0.3s;
+        @include media-breakpoint-up(sm) { 
+            font-size: 18px;
+            padding: 26px;
+            letter-spacing: 3.6px;
+        }
 
         &:hover {
             color: $black;
@@ -69,6 +74,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 56px;
+        @include media-breakpoint-up(sm) { 
+            height: auto;
+        }
 
         path {
             stroke: $white;
