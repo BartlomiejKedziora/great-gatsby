@@ -4,7 +4,7 @@ const Social = () => {
 
   return(
     <>
-      <div className="header-social">
+      <div className="header-social d-none d-lg-flex">
         <a className="header-social__item">
             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18"><g><g><path d="M9.26 9.941l.47-3.061H6.793V4.894c0-.838.41-1.654 1.726-1.654h1.335V.634S8.642.427 7.484.427c-2.419 0-4 1.466-4 4.12V6.88H.795V9.94h2.689v7.4h3.31v-7.4z"/></g></g></svg>
         </a>

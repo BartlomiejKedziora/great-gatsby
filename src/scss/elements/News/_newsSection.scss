@@ -1,13 +1,23 @@
 .news {
-    margin-top: 140px;
+    margin-top: 80px;
+    @include media-breakpoint-up(lg) { 
+        margin-top: 140px;
+    }
 
     &__title {
         width: 100%;
-        font-size: 65px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 1.2;
         text-align: center;
-        margin-bottom: 106px;
+        margin-bottom: 60px;
+        @include media-breakpoint-up(sm) { 
+            font-size: 65px;
+            line-height: 75px;
+        }
+        @include media-breakpoint-up(lg) { 
+            margin-bottom: 106px;
+        }
     }
 
     &__row--wide {

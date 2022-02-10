@@ -2,23 +2,48 @@
     
     &__wrapper {
         position: absolute;
+        top: 15%;
         left: 0;
         right: 0;
-        bottom: 181px;
-        z-index: 3;
+        z-index: 2;
+        @include media-breakpoint-up(lg) { 
+            top: unset;
+            bottom: 181px;
+         }
     }
 
     &__title {
         color: $white;
         font-weight: bold;
-        font-size: 65px;
-        line-height: 98px;
+        font-size: 40px;
+        line-height: 1.2;
+        text-align: center;
+        @include media-breakpoint-up(lg) { 
+            font-size: 55px;
+            line-height: 1.2;
+            text-align: left;
+        }
+        @include media-breakpoint-up(xl) { 
+            font-size: 65px;
+            line-height: 98px;
+        }
     }
 
     &__text {
-        max-width: 55%;
         color: $white;
-        font-size: 46px;
-        line-height: 72px;
+        font-size: 26px;
+        line-height: 1.2;
+        text-align: center;
+        @include media-breakpoint-up(lg) { 
+            max-width: 45%;
+            font-size: 32px;
+            line-height: 1.4;
+            text-align: left;
+        }
+        @include media-breakpoint-up(xl) { 
+            max-width: 55%;
+            font-size: 46px;
+            line-height: 72px;
+        }
     }
 }

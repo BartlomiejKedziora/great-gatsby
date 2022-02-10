@@ -32,7 +32,7 @@ const GalleryLightBox = () => {
             <div className="gallery__img gallery__img6">
                 <img className="gallery__image" src={img6} alt="" />
             </div>
-            <div className="gallery__title__wrapper">
+            <div className="gallery__title__wrapper d-none d-xxl-block">
                 <div className="container">
                     <div className="gallery__title">Galeria</div>
                     <div className="gallery__title__line"></div>

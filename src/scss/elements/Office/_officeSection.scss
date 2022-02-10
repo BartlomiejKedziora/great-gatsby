@@ -1,3 +1,6 @@
 .office {
-    margin-top: 140px;
+    margin-top: 100px;
+    @include media-breakpoint-up(lg) { 
+        margin-top: 140px;
+    }
 }

@@ -8,6 +8,12 @@ const Gallery = () => {
   return(
     <>
         <section className="gallery">
+            <div className="gallery__title__wrapper--mobile d-xxl-none">
+                <div className="container">
+                    <div className="gallery__title">Galeria</div>
+                    <div className="gallery__title__line"></div>
+                </div>    
+            </div>
             <div className="gallery__arrows__wrapper">
                 <div className="container-fluid">
                     <div className="gallery__arrows gallery__arrows--prev">

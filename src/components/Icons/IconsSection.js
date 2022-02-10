@@ -18,7 +18,7 @@ const IconsSection = () => {
         <section className="icons">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-6">
+                    <div className="col-lg-3 col-sm-6 col-12">
                         <div className="icons__title">Lorem ipsum dolor sit amet, conse </div>
                         <div className="icons__line"></div>
                     </div>

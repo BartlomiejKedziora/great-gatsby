@@ -6,7 +6,7 @@ const FooterMenu = () => {
     <>
       <div className="footer-menu">
         <div className="row">
-            <div className="col-lg-4 col-12">
+            <div className="col-lg-4 col-12 footer-menu__contact-container">
                 <div className="footer-menu__text">ul. Towarowa 5/6</div>
                 <div className="footer-menu__text">31-000 Kraków</div>
                 <div className="footer-menu__text__contact">
